@@ -148,7 +148,42 @@
     font-weight: bold;
   }
   
-  
+ .c1:before {
+ content:' Registration for the event Analyst starts at 1pm.' ;
+}
+.c1:hover:before{
+    content:'Changed after hovering' ;
+}  
+.c2:before {
+    content:' Guesstimates and Di on d2c.' ;
+   }
+   .c2:hover:before{
+       content:'Changed after hovering 2' ;
+   }  
+   .c3:before {
+    content:' Case reveal to qualified participants for prelims at 11 am.' ;
+   }
+   .c3:hover:before{
+       content:'Changed after hovering 3' ;
+   } 
+   .c4:before {
+    content:' Last date of Case submission, to be accepted till 5 pm.' ;
+   }
+   .c4:hover:before{
+       content:'Changed after hovering 4' ;
+   } 
+   .c5:before {
+    content:'Case reveal for finals at 11 am to the qualified participants.' ;
+   }
+   .c5:hover:before{
+       content:'Changed after hovering 5' ;
+   } 
+   .c6:before {
+    content:'Live pitching of case solutions in front of judges.' ;
+   }
+   .c6:hover:before{
+       content:'Changed after hovering 6' ;
+   }    
 
 hr{
     
