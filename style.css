@@ -443,13 +443,23 @@ footer{
        
     }
     .second{
-        max-width: 140%;
+        max-width: 150%;
+        margin: auto;
+        align-items: center;
     }
     .second img{
+        max-width:160%; 
+        margin: auto;
+        height: 100%;
+        padding-right: 60px;
+    }
+    /*
+        .second img{
         max-width:140%;
         padding-right: 20px;
         height: 130%;
     }
+    */
     .image img{
          width: 85%;
          height: 100%;
@@ -511,78 +521,22 @@ footer{
         
         
     }
+    .gotopbtn{
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        background:  yellowgreen;
+        bottom: 0px;
+        right: 0px;
+        opacity: .7;
+        text-decoration: none;
+        align-content:right;
+        justify-content: end;
+        line-height: 50px;
+        color: white;
+        font-size: 22px;
+    }
 
-    .t1::before{
-        content: "Registration for the event Analyst starts at 1 pm.";
-    }
-    .t1:hover::before{
-        content: "Click on Register.";
-    }
-    .t7::before{
-        content: "Registration for the event closes at 9 pm.";
-    }
-    .t7:hover::before{
-        content: "Click on Resister.";
-    }
-    .t2::before{
-        content: "Round 1 (15 questions on logo+connect in section A and further 2 DI and 1 logical reasoning question in section B) from 6 pm to 6.30 pm .";
-    }
-    .t2:hover::before{
-        content: "Round 1 (15 questions on logo+connect in section A and further 2 DI and 1 logical reasoning question in section B) from 6 pm to 6.30 pm .";
-    }
-    .t8::before{
-        content: "The Bootcamp event";
-    }
-    .t8:hover::before{
-        content: "The Bootcamp event";
-    }
-    .t3::before{
-        content: "Results of round 1  at 9 pm. ";
-    }
-    .t3:hover::before{
-        content: "Results of round 1  at 9 pm.";
-    }
-    .t9::before{
-        content: "Case reveal to qualified participants for prelims at 11 am.";
-    }
-    .t9:hover::before{
-        content: "Case reveal to qualified participants for prelims at 11 am.";
-    }
-    .t4::before{
-        content: "Last date of Case submission of prelims, to be accepted till 5 pm.";
-    }
-    .t4:hover::before{
-        content: "Last date of Case submission of prelims, to be accepted till 5 pm.";
-    }
-    .t5::before{
-        content: "Declaration of winners of prelims at 5 pm .";
-    }
-    .t5:hover::before{
-        content: "Declaration of winners of prelims at 5 pm .";
-    }
-    .t6::before{
-        content: "Case reveal for finals at 11 am to the qualified participants.";
-    }
-    .t6:hover::before{
-        content: "Case reveal for finals at 11 am to the qualified participants.";
-    }
-    .t10::before{
-        content: "Live pitching of case solutions in front of judges.";
-    }
-    .t10:hover::before{
-        content: "Live pitching of case solutions in front of judges.";
-    }
-    .t11::before{
-        content: "Declaration of winners (top 3) at 11 am.";
-    }
-    .t11:hover::before{
-        content: "Declaration of winners (top 3) at 11 am.";
-    }
-    .container{
-        padding-bottom: 10px;
-    }
-    
-    
     
 }
 
@@ -693,4 +647,21 @@ html {
     scroll-behavior:smooth;
   }
 
-
+.gotopbtn{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background:  yellowgreen;
+    bottom: 15px;
+    right: 15px;
+    opacity: .7;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 22px;
+ }
+ .gotopbtn a:hover{
+    color: white;
+ }
+  
