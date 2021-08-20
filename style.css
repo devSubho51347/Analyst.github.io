@@ -325,15 +325,16 @@ hr{
     padding-left: 20px;
 }
 .card-text1{
-    display: inline-table;
+   
     color: rgba(245, 245, 245, 0.678);
-    
+    display: flex;
    
 }
 .card-title1{
     color: rgb(223, 217, 217);
     font-family: sans-serif;
     font-size: 25px;
+    display: flex;
 }
 
 /*      ================footer ==================*/
@@ -456,10 +457,10 @@ footer{
         
          
     }
-    .gallery{
+    /*.gallery{
         margin-left: 15px ;
         max-width: 100%;
-    }
+    } */
     .sponcer{
         margin: 0px auto ;
         max-width: 100%;
@@ -481,7 +482,7 @@ footer{
     
     
     .card-body1 img{
-        width: 100%;
+        max-width: 100%;
         
     }
     .card-body1{
@@ -499,7 +500,7 @@ footer{
     footer{
         max-width: 100%;
         
-        margin: 0px auto;
+        margin: auto;
         
     }
     .footer-content{
@@ -510,44 +511,155 @@ footer{
         
         
     }
+
+    .t1::before{
+        content: "Registration for the event Analyst starts at 1 pm.";
+    }
+    .t1:hover::before{
+        content: "Click on Register.";
+    }
+    .t7::before{
+        content: "Registration for the event closes at 9 pm.";
+    }
+    .t7:hover::before{
+        content: "Click on Resister.";
+    }
+    .t2::before{
+        content: "Round 1 (15 questions on logo+connect in section A and further 2 DI and 1 logical reasoning question in section B) from 6 pm to 6.30 pm .";
+    }
+    .t2:hover::before{
+        content: "Round 1 (15 questions on logo+connect in section A and further 2 DI and 1 logical reasoning question in section B) from 6 pm to 6.30 pm .";
+    }
+    .t8::before{
+        content: "The Bootcamp event";
+    }
+    .t8:hover::before{
+        content: "The Bootcamp event";
+    }
+    .t3::before{
+        content: "Results of round 1  at 9 pm. ";
+    }
+    .t3:hover::before{
+        content: "Results of round 1  at 9 pm.";
+    }
+    .t9::before{
+        content: "Case reveal to qualified participants for prelims at 11 am.";
+    }
+    .t9:hover::before{
+        content: "Case reveal to qualified participants for prelims at 11 am.";
+    }
+    .t4::before{
+        content: "Last date of Case submission of prelims, to be accepted till 5 pm.";
+    }
+    .t4:hover::before{
+        content: "Last date of Case submission of prelims, to be accepted till 5 pm.";
+    }
+    .t5::before{
+        content: "Declaration of winners of prelims at 5 pm .";
+    }
+    .t5:hover::before{
+        content: "Declaration of winners of prelims at 5 pm .";
+    }
+    .t6::before{
+        content: "Case reveal for finals at 11 am to the qualified participants.";
+    }
+    .t6:hover::before{
+        content: "Case reveal for finals at 11 am to the qualified participants.";
+    }
+    .t10::before{
+        content: "Live pitching of case solutions in front of judges.";
+    }
+    .t10:hover::before{
+        content: "Live pitching of case solutions in front of judges.";
+    }
+    .t11::before{
+        content: "Declaration of winners (top 3) at 11 am.";
+    }
+    .t11:hover::before{
+        content: "Declaration of winners (top 3) at 11 am.";
+    }
+    .container{
+        padding-bottom: 10px;
+    }
+    
     
     
 }
+
 .t1::before{
-    content: "Registration for the event Analyst starts at 1pm.";
+    content: "Registration for the event Analyst starts at 1 pm.";
+    visibility: hidden;
+    
 }
 .t1:hover::before{
-    content: "starts at 1pm.";
+    content: "Registration for the event Analyst starts at 1 pm.";
+    visibility: visible;
+}
+.t7::before{
+    content: "Registration for the event closes at 9 pm.";
+    visibility: hidden;
+}
+.t7:hover::before{
+    content: "Registration for the event closes at 9 pm.";
+    visibility: visible;
 }
 .t2::before{
-    content: "Guesstimates and Di on d2c.";
+    content: "Round 1 (15 questions on logo+connect in section A and further 2 DI and 1 logical reasoning question in section B) from 6 pm to 6.30 pm .";
+    visibility: hidden;
 }
 .t2:hover::before{
-    content: "starts at 1pm.";
+    content: "Round 1 (15 questions on logo+connect in section A and further 2 DI and 1 logical reasoning question in section B) from 6 pm to 6.30 pm .";
+    visibility:visible;
+}
+.t8::before{
+    content: "The Bootcamp event";
+    visibility: hidden;
+}
+.t8:hover::before{
+    content: "The Bootcamp event";
+    visibility: visible;
 }
 .t3::before{
-    content: "Case reveal to qualified participants for prelims at 11 am.";
+    content: "Results of round 1  at 9 pm. ";visibility: hidden;
 }
 .t3:hover::before{
-    content: "starts at 1pm.";
+    content: "Results of round 1  at 9 pm.";visibility: visible;
+}
+.t9::before{
+    content: "Case reveal to qualified participants for prelims at 11 am.";visibility: hidden;
+}
+.t9:hover::before{
+    content: "Case reveal to qualified participants for prelims at 11 am.";visibility: visible;
 }
 .t4::before{
-    content: "Last date of Case submission, to be accepted till 5 pm.";
+    content: "Last date of Case submission of prelims, to be accepted till 5 pm.";visibility: hidden;
 }
 .t4:hover::before{
-    content: "starts at 1pm.";
+    content: "Last date of Case submission of prelims, to be accepted till 5 pm.";visibility:visible;
 }
 .t5::before{
-    content: "Case reveal for finals at 11 am to the qualified participants.";
+    content: "Declaration of winners of prelims at 5 pm .";visibility: hidden;
 }
 .t5:hover::before{
-    content: "starts at 1pm.";
+    content: "Declaration of winners of prelims at 5 pm .";visibility: visible;
 }
 .t6::before{
-    content: "Live pitching of case solutions in front of judges.";
+    content: "Case reveal for finals at 11 am to the qualified participants.";visibility: hidden;
 }
 .t6:hover::before{
-    content: "starts at 1pm.";
+    content: "Case reveal for finals at 11 am to the qualified participants.";visibility: visible;
+}
+.t10::before{
+    content: "Live pitching of case solutions in front of judges.";visibility: hidden;
+}
+.t10:hover::before{
+    content: "Live pitching of case solutions in front of judges.";visibility: visible;
+}
+.t11::before{
+    content: "Declaration of winners (top 3) at 11 am.";visibility: hidden;
+}
+.t11:hover::before{
+    content: "Declaration of winners (top 3) at 11 am.";visibility: visible;
 }
 #event{
     padding: 20px ;
@@ -557,3 +669,33 @@ footer{
     justify-content: center;
     margin: auto;
 }
+html,body {
+    overflow-x: hidden;
+}
+
+.about1 .content 
+{
+    background-color: inherit;
+    padding: 40px;
+}
+  
+.about1 h3 
+{
+    font-size: 50px;
+    font-weight: 700;
+    color: #c0ee1a;
+}
+  
+  
+.about1 p 
+{
+    color: #ffffff;
+    margin: 15px 0 30px 0;
+    line-height: 24px;
+    transition: 0s;
+    opacity: 1;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
