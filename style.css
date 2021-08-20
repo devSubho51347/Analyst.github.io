@@ -588,79 +588,71 @@ footer{
 
 .t1::before{
     content: "Registration for the event Analyst starts at 1 pm.";
-    visibility: hidden;
-    
 }
 .t1:hover::before{
-    content: "Registration for the event Analyst starts at 1 pm.";
-    visibility: visible;
+    content: "Click on Register.";
 }
 .t7::before{
     content: "Registration for the event closes at 9 pm.";
-    visibility: hidden;
 }
 .t7:hover::before{
-    content: "Registration for the event closes at 9 pm.";
-    visibility: visible;
+    content: "Click on Resister.";
 }
 .t2::before{
     content: "Round 1 (15 questions on logo+connect in section A and further 2 DI and 1 logical reasoning question in section B) from 6 pm to 6.30 pm .";
-    visibility: hidden;
 }
 .t2:hover::before{
     content: "Round 1 (15 questions on logo+connect in section A and further 2 DI and 1 logical reasoning question in section B) from 6 pm to 6.30 pm .";
-    visibility:visible;
 }
 .t8::before{
     content: "The Bootcamp event";
-    visibility: hidden;
 }
 .t8:hover::before{
     content: "The Bootcamp event";
-    visibility: visible;
 }
 .t3::before{
-    content: "Results of round 1  at 9 pm. ";visibility: hidden;
+    content: "Results of round 1  at 9 pm. ";
 }
 .t3:hover::before{
-    content: "Results of round 1  at 9 pm.";visibility: visible;
+    content: "Results of round 1  at 9 pm.";
 }
 .t9::before{
-    content: "Case reveal to qualified participants for prelims at 11 am.";visibility: hidden;
+    content: "Case reveal to qualified participants for prelims at 11 am.";
 }
 .t9:hover::before{
-    content: "Case reveal to qualified participants for prelims at 11 am.";visibility: visible;
+    content: "Case reveal to qualified participants for prelims at 11 am.";
 }
 .t4::before{
-    content: "Last date of Case submission of prelims, to be accepted till 5 pm.";visibility: hidden;
+    content: "Last date of Case submission of prelims, to be accepted till 5 pm.";
 }
 .t4:hover::before{
-    content: "Last date of Case submission of prelims, to be accepted till 5 pm.";visibility:visible;
+    content: "Last date of Case submission of prelims, to be accepted till 5 pm.";
 }
 .t5::before{
-    content: "Declaration of winners of prelims at 5 pm .";visibility: hidden;
+    content: "Declaration of winners of prelims at 5 pm .";
 }
 .t5:hover::before{
-    content: "Declaration of winners of prelims at 5 pm .";visibility: visible;
+    content: "Declaration of winners of prelims at 5 pm .";
 }
 .t6::before{
-    content: "Case reveal for finals at 11 am to the qualified participants.";visibility: hidden;
+    content: "Case reveal for finals at 11 am to the qualified participants.";
 }
 .t6:hover::before{
-    content: "Case reveal for finals at 11 am to the qualified participants.";visibility: visible;
+    content: "Case reveal for finals at 11 am to the qualified participants.";
 }
 .t10::before{
-    content: "Live pitching of case solutions in front of judges.";visibility: hidden;
+    content: "Live pitching of case solutions in front of judges.";
 }
 .t10:hover::before{
-    content: "Live pitching of case solutions in front of judges.";visibility: visible;
+    content: "Live pitching of case solutions in front of judges.";
 }
 .t11::before{
-    content: "Declaration of winners (top 3) at 11 am.";visibility: hidden;
+    content: "Declaration of winners (top 3) at 11 am.";
 }
 .t11:hover::before{
-    content: "Declaration of winners (top 3) at 11 am.";visibility: visible;
+    content: "Declaration of winners (top 3) at 11 am.";
 }
+
 #event{
     padding: 20px ;
 }
