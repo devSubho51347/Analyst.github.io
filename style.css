@@ -207,12 +207,12 @@ hr{
 }
 
 .gtext{
-    justify-content: center;padding-top: 30px;
+    justify-content: center;
     align-items: center;
     margin: auto;
     text-align: center;
     font-size: 40px;
-    margin-top: 40px;
+    margin-top: 10px;
     font-style: bold;
     font-family: monospace;
 }
@@ -689,5 +689,8 @@ html,body {
     font-weight: normal;
     font-size: 20px;
 }
+html {
+    scroll-behavior:smooth;
+  }
 
 
