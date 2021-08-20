@@ -1,6 +1,4 @@
-html {
-  scroll-behavior: smooth;
-}
+/*
 .navbar{
     display: flex;
     justify-content: center;
@@ -29,31 +27,33 @@ html {
     margin: 20px 10px;
    
 }
+
+
+
+
+/*      ------------------ body ------------ */
 .nav-list li a:hover{
     
     color: rgb(58, 45, 45);
     font-size: 20px;
-    border-bottom: 3px solid blue;
+    border-bottom: 3px solid blue !important;
     margin-bottom: 17px;
     
 
 }
-
 .background{
     background-color: #ccf2ff;
     /*  #ccf2ff  */
 }
-
-/*      ------------------ body ------------ */
-
 .box-main{
     display: flex;
     justify-content: center;
     align-content: center;
     color: rgb(99, 97, 86);
     max-width: 70%;
-    margin: auto;
-    height: 60%;
+    margin: 20px auto;
+    height: 100%;
+    padding: 40px 0px;
 }
 .firstSection{
     padding-bottom: 30px;
@@ -69,10 +69,12 @@ html {
     padding-left: 40px;
     
 }
+
 .second img{
     width: auto;
     background-position: center;
     position: relative;
+    
 }
 .bigtext{
     font-size: 60px;
@@ -150,42 +152,7 @@ html {
     font-weight: bold;
   }
   
- .c1:before {
- content:' Registration for the event Analyst starts at 1pm.' ;
-}
-.c1:hover:before{
-    content:'Changed after hovering' ;
-}  
-.c2:before {
-    content:' Guesstimates and Di on d2c.' ;
-   }
-   .c2:hover:before{
-       content:'Changed after hovering 2' ;
-   }  
-   .c3:before {
-    content:' Case reveal to qualified participants for prelims at 11 am.' ;
-   }
-   .c3:hover:before{
-       content:'Changed after hovering 3' ;
-   } 
-   .c4:before {
-    content:' Last date of Case submission, to be accepted till 5 pm.' ;
-   }
-   .c4:hover:before{
-       content:'Changed after hovering 4' ;
-   } 
-   .c5:before {
-    content:'Case reveal for finals at 11 am to the qualified participants.' ;
-   }
-   .c5:hover:before{
-       content:'Changed after hovering 5' ;
-   } 
-   .c6:before {
-    content:'Live pitching of case solutions in front of judges.' ;
-   }
-   .c6:hover:before{
-       content:'Changed after hovering 6' ;
-   }    
+  
 
 hr{
     
@@ -253,11 +220,6 @@ hr{
     color: blue;
     font-size: 70px;
 }
-.centrer{
-    width:80% ;
-    margin-left:auto;
-    margin-right:auto;
-}
 
 /*      ------------------ Sponcer  --------------------- */
 .stext{
@@ -294,16 +256,17 @@ hr{
     right: 0;
 }
 .image1 img{
-    padding: 5px;
+    padding: 2px;
     margin:0px 20px;
     width: 90%;
-    border: 2px solid rgba(223, 104, 104, 0.603);
+    background-color: white;
+    /*border: 2px solid rgba(223, 104, 104, 0.603);*/
 }
 .image1 img:hover{
     transition-duration: 400ms;
     /*transform:  translateX(5px) translateY(-3px);*/
     transition-delay: 20ms;
-    box-shadow:4px 4px 4px 4px rgba(0,5,4,.1) ;
+    box-shadow:1px 2px 20px 7px rgba(0,5,4,.4) ;
 }
 
 
@@ -342,11 +305,9 @@ hr{
     align-items: center; 
     padding-bottom: 20px;
     column-gap: 60px;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    
 }
-.card-body img{
+.card-body1 img{
     float: left;
     padding: 1px;
     margin-right: 20px;
@@ -354,7 +315,7 @@ hr{
     width: 40%;
     border: 2px solid rgba(255, 255, 255, 0.527);
 }
-.card-body{
+.card-body1{
     padding: 20px;
     margin-left: 10px;
     margin-right: 30px;
@@ -363,13 +324,13 @@ hr{
     margin: auto;
     padding-left: 20px;
 }
-.card-text{
+.card-text1{
     display: inline-table;
     color: rgba(245, 245, 245, 0.678);
     
    
 }
-.card-title{
+.card-title1{
     color: rgb(223, 217, 217);
     font-family: sans-serif;
     font-size: 25px;
@@ -380,11 +341,9 @@ hr{
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
-body{
-    background: #fcfcfc;
-}
+
 footer{
     position: relative;
     bottom: 0;
@@ -469,13 +428,26 @@ footer{
       position: static;
       margin-bottom: -20px;
     }
+    .firstSection
+    {
+        position: relative;
+        max-width: 100%;
+    }
     .box-main{
         flex-direction: column-reverse;
         width: 100%;
         margin-left: 15px;
+        position: relative;
+       
+       
+    }
+    .second{
+        max-width: 140%;
     }
     .second img{
-        width:100%;
+        max-width:140%;
+        padding-right: 20px;
+        height: 130%;
     }
     .image img{
          width: 85%;
@@ -489,7 +461,7 @@ footer{
         max-width: 100%;
     }
     .sponcer{
-        margin-left: 15px ;
+        margin: 0px auto ;
         max-width: 100%;
     }
     .bigtext{
@@ -503,39 +475,85 @@ footer{
         max-width: 100%;
     }
     .foot{
-        margin-left: 15px;
+        margin: 0px auto;
         max-width: 100%;
     }
     
     
-    .card-body img{
+    .card-body1 img{
         width: 100%;
         
     }
-    .card-body{
+    .card-body1{
         margin-left: 15px;
         max-width: 100%;
     }
     .contact{
         max-width: 100%;
-        margin-left: 12px;
+        margin:0px auto;
     }
     .wrapper{
-        max-width: 100%;
+        max-width: 100%;margin: auto;
     }
     
     footer{
         max-width: 100%;
-        margin-left: 10px;
+        
+        margin: 0px auto;
         
     }
     .footer-content{
         padding: 20px;
     }
     body{
-        margin-left: 20px;
-        right:10px
+        margin:5px auto;
+        
         
     }
     
+    
+}
+.t1::before{
+    content: "Registration for the event Analyst starts at 1pm.";
+}
+.t1:hover::before{
+    content: "starts at 1pm.";
+}
+.t2::before{
+    content: "Guesstimates and Di on d2c.";
+}
+.t2:hover::before{
+    content: "starts at 1pm.";
+}
+.t3::before{
+    content: "Case reveal to qualified participants for prelims at 11 am.";
+}
+.t3:hover::before{
+    content: "starts at 1pm.";
+}
+.t4::before{
+    content: "Last date of Case submission, to be accepted till 5 pm.";
+}
+.t4:hover::before{
+    content: "starts at 1pm.";
+}
+.t5::before{
+    content: "Case reveal for finals at 11 am to the qualified participants.";
+}
+.t5:hover::before{
+    content: "starts at 1pm.";
+}
+.t6::before{
+    content: "Live pitching of case solutions in front of judges.";
+}
+.t6:hover::before{
+    content: "starts at 1pm.";
+}
+#event{
+    padding: 20px ;
+}
+.j{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
 }
