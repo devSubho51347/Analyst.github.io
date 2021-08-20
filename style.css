@@ -445,9 +445,9 @@ footer{
         max-width: 140%;
     }
     .second img{
-        max-width:130%;
-        
-        height: 100%;
+        max-width:140%;
+        padding-right: 20px;
+        height: 130%;
     }
     .image img{
          width: 85%;
