@@ -1,0 +1,42 @@
+.carder
+{
+   position: relative;
+
+   min-height:60vh;
+   box-shadow: inset 5px 5px 5px rgba(0,0,0,0.05),
+               inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+               5px 5px 5px rgba(0,0,0,0.05),
+               -5px -5px 5px rgba(255, 255, 255, 0.5);
+   margin: 30px;
+   border-radius: 15px;
+   justify-content: center;
+
+}
+
+.carder .card
+{
+   position:absolute;
+   top: 20px;
+   left: 20px;
+   right: 20px;
+   bottom: 20px;
+   background: #ebf5fc;
+   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+   border-radius: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: 0.5s;
+}
+.carder .card .card-body
+{
+   padding: 20px;
+   text-align: center;
+
+}
+
+.carder:hover .card
+{
+    transform:translateY(-50px);
+    box-shadow: 0 10px 40px rgba(19, 56, 179, 0.308);
+}
